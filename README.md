@@ -1,5 +1,5 @@
 # EFM8LB1 Phasor Calculator & Signal Analyzer 
-- A microcontroller-based digital signal analyzer and phasor calculator built around the Silicon Labs EFM8LB1 microcontroller. This project samples dual analog input channels, computes real-time RMS voltage, frequency, and phase relationships, and provides an interactive interface for performing complex phasor arithmetic using hardware pushbuttons.
+A microcontroller-based digital signal analyzer and phasor calculator built around the Silicon Labs EFM8LB1 microcontroller. This project samples dual analog input channels, computes real-time RMS voltage, frequency, and phase relationships, and provides an interactive interface for performing complex phasor arithmetic using hardware pushbuttons.
 
 ## Features:
 
@@ -16,7 +16,7 @@
     - Save: Captures current RMS and phase metrics into selectable bus registers.
 ### Dual-Interface Output: 
 - Real-time telemetry streamed via UART to a terminal emulator (e.g., PuTTY) alongside a live 16x2 character LCD status display.
--
+
 ## Hardware implimentations: 
 - Microcontroller: Silicon Labs EFM8LB1.
 - Display: Standard 16x2 character LCD (operating in 4-bit mode).
